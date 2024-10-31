@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+<h2 class="register"> Register</h2>
+
+
+
+        <span class="email">Enter Email:</span>
+            <input type="email" placeholder="Enter Email" id="email" />
+            <span class="email" id="pass">Enter Password:</span>
+        <input  type="password" placeholder="Enter Password" id="password" />
+        <span class="email"> Enter Name:</span>
+        <input type="text" placeholder="Enter name" id="name" />
+        <span class="email">Enter Age:</span>
+        <input type="number" placeholder="Enter age" id="age" />
+   
+
+    <br>
+    <button id="signup">Signup</button>
+    <br>
+    <button class="btn"><P>Already you have in Account</P> <a href="#" class="login" onclick="window.location.replace('loginpage.html')">Sign In</a></button>
+</div>  
+
+    <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-database-compat.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBDaj4o1Q4snhQgq-D1vqJx-fVo_MidNZs",
+            authDomain: "development-5141d.firebaseapp.com",
+            projectId: "development-5141d",
+            storageBucket: "development-5141d.appspot.com",
+            messagingSenderId: "958926753572",
+            appId: "1:958926753572:web:c9937c01a7a80b56a46db1",
+            databaseURL: "https://development-5141d-default-rtdb.firebaseio.com",
+            measurementId: "G-WGZ8F7W9PP"
+        }
+
+
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="signup.js"></script>
+
+</body>
+
+</html>

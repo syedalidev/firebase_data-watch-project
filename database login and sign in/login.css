@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    font-style: oblique;
+}
+
+.container2{
+    display: inline;
+    display: inline-block;
+    background-color: rgb(3, 3, 3);
+    border: 4px solid;
+    border-color:  rgb(29, 244, 32);
+    border-radius: 30px;
+    margin-bottom: 10rem;
+    position: relative;
+    top: 9rem;
+}
+
+input{
+    background-color: white;
+    border-radius: 30px;
+    border: 4px solid;
+    border-color:  rgb(29, 244, 32);
+    font-size: large;
+    padding: 10px;
+    margin: 2rem;
+}
+
+#signin{
+    background-color:black;
+    color: rgb(29, 244, 32);
+    font-size: large;
+    border: 4px solid;
+    padding: 10px 90px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 20px;
+    border-color:rgb(29, 244, 32) ;
+}
+
+#signin:hover{
+    background-color: white;
+    color: black;
+}
+
+span{
+    font-size: 26px;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+    right: 58px;
+    color: white;
+
+}
+
+.email{
+    position: relative;
+    right: 80px;
+}
+
+.logo{
+    font-size: 40px    ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign{
+    font-size: 16px;
+    padding: 10px 14px;  
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    border: none;
+}
+a{
+    color: rgb(29, 244, 32) ;
+}
